@@ -149,3 +149,13 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 	max-width: 800px;
 	margin: 40px auto;
 }
+ul.list-clientes li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 0 10px;
+
+}
+ul.list-clientes li, ul.list-clientes li img{
+	vertical-align: middle;
+}
