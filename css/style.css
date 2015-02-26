@@ -84,16 +84,41 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 	padding: 50px 0px 20px 40px;
 }
 #caja-mision h2{
-	font-size: 1.2em;
+	font-size: 18px;
 	line-height: 0.5em;
 }
 #caja-mision p{
 	font-size: 0.8em;
 	line-height: 1.3em;
 	margin-left: 20px;
+	letter-spacing: 0.5px;
 }
 .servicios{
 	text-align: center;
+	padding: 40px 0px;
+}
+.servicios h2{
+	color: #300c00;
+	font-size: 19px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	margin-bottom: 5px;
+}
+.servicios h3{
+	color: #555555;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.servicios p{
+	color: #555555;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 16px;
+}
+.servicios img{
+	margin-bottom: 10px;
 }
 .line-yellow{
 	background-image:  url("../images/line-yellow.png");
