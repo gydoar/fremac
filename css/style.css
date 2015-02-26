@@ -67,3 +67,38 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 	color: #2d0d0c;
 	font-weight: bold;
 }
+
+#mision{
+	max-width: 781px;
+	background-image: url("../images/tab-mision.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 198px;
+	margin: 0 auto;
+	margin-top: -50px;
+	color: #ffffff;
+}
+#caja-mision{
+
+	max-width: 400px;
+	padding: 50px 0px 20px 40px;
+}
+#caja-mision h2{
+	font-size: 1.2em;
+	line-height: 0.5em;
+}
+#caja-mision p{
+	font-size: 0.8em;
+	line-height: 1.3em;
+	margin-left: 20px;
+}
+.servicios{
+	text-align: center;
+}
+.line-yellow{
+	background-image:  url("../images/line-yellow.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	max-width: 619px;
+	height: 12px;
+}
