@@ -97,7 +97,7 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 	text-align: center;
 	padding: 40px 0px;
 }
-.servicios h2{
+.servicios h2, .clientes h2{
 	color: #300c00;
 	font-size: 19px;
 	font-weight: 700;
@@ -126,4 +126,26 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 	background-size: 100%;
 	max-width: 619px;
 	height: 12px;
+}
+.slogan{
+	background-color: #2d0d0c;
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+}
+.slogan h3{
+	font-weight: normal;
+	max-width: 800px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.clientes{
+	text-align: center;
+	padding: 40px 0px;
+	color: #8f8f8f;
+}
+.clientes p{
+	max-width: 800px;
+	margin: 40px auto;
 }
