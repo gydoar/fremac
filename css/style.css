@@ -1,0 +1,10 @@
+#mainbanner{
+	background-image: url("../images/banner.png");
+	height: 632px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#header-color{
+	background-color: rgba(45,13,12,0.8);
+	height: 91px;
+}
