@@ -3,6 +3,7 @@
 	height: 632px;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	position: center buttom;
 }
 #header-color{
 	background-color: rgba(45,13,12,0.8);
@@ -159,3 +160,101 @@ ul.list-clientes li{
 ul.list-clientes li, ul.list-clientes li img{
 	vertical-align: middle;
 }
+ul.logos-clientes li{
+	margin: 15px 20px;
+	display: inline-block;
+	list-style: none;
+}
+.contactenos{
+	background-image: url("../images/bn-contacto.png");
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+}
+
+.contactenos h2{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.contactenos p{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.contactenos a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.contactenos a:hover{
+	color: #e8bf79;
+}
+.bg-copy{
+	background-color: #1f0000;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.8em;
+	padding-top: 20px;
+}
+.bg-copy p{
+	margin-bottom: 10px;
+}
+.bg-copy p, .bg-copy img{
+	vertical-align: middle;
+}
+.bg-copy a{
+	text-decoration: none;
+	color: #e8e7e7;
+}
+.page{
+	margin: 60px 0px;
+	color: #646464;
+}
+.page h3{
+	border-bottom: 4px solid #e3b05b;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+.page p{
+	line-height: 20px;
+	text-align: justify;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.text-page strong{
+	float: right;
+	font-size: 14px;
+}
+.text-page{
+	margin-top: 70px;
+}
+.portafolio{
+	margin-top: 30px;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
