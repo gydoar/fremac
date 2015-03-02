@@ -82,7 +82,7 @@ ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:f
 #caja-mision{
 
 	max-width: 400px;
-	padding: 50px 0px 20px 40px;
+	padding: 0px 0px 20px 40px;
 }
 #caja-mision h2{
 	font-size: 18px;
@@ -233,6 +233,19 @@ ul.logos-clientes li{
 .portafolio{
 	margin-top: 30px;
 }
+.contacto{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.contacto label{
+	color: #300c0a;
+	font-weight: normal;
+}
+.c1, .c2{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -245,13 +258,28 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+	#mainbanner{
+		background-size: auto 100%;
+	}
+	#mision{
+		background-size: auto 100%;
+	}
+	.contactenos{
+		background-size: auto 100%;
+	}
+	
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}

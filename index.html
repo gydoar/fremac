@@ -21,7 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/slicknav.css">
+  <link type="text/css" rel="stylesheet" href="css/jquery.pwstabs-1.2.1.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -30,6 +30,10 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+  <script src="js/jquery.pwstabs-1.2.1.js"></script>
+  
 
 </head>
 <body>
@@ -60,9 +64,22 @@
       <section id="mision">
 
         <div id="caja-mision">
+
+          <div class="tabset7">
+             <div data-pws-tab="tab1" data-pws-tab-name="Misión">
+               <h2>MISIÓN</h2>
+
+               <p>Ofrecer óptimas soluciones integrales al mejor beneficio/costo en el suministro de servicios que cumplan con estándares de calidad y garantía, apoyados en la experiencia y compromiso del recurso humano y una adecuada gestión de servicio al cliente.</p>
+            </div>
+            <div data-pws-tab="tab2" data-pws-tab-name="Visión">
+              <h2>VISIÓN</h2>
+
+               <p>Ser socios estratégicos en la cadena de valor de la industria como proveedores eficientes, efectivos y confiables.</p>
+            </div>
+          </div>
           
-          <h2>MISIÓN</h2>
-          <p>Ofrecer óptimas soluciones integrales al mejor beneficio/costo en el suministro de servicios que cumplan con estándares de calidad y garantía, apoyados en la experiencia y compromiso del recurso humano y una adecuada gestión de servicio al cliente.</p>
+          
+          
 
         </div>
         
@@ -166,6 +183,13 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
-
+<script>
+   $('.tabset7').pwstabs({
+   effect: 'slideright',
+   defaultTab: 1,
+   containerWidth: '100%',
+   horizontalPosition: 'bottom'
+  });
+  </script>
 </body>
 </html>
