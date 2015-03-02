@@ -120,13 +120,14 @@
 }
 .pws_tabs_container ul.pws_tabs_controll li a {
   display: block;
-  background-color: #9bd7d5;
   text-decoration: none;
-  color: #fff;
+  
   margin-right: 3px;
+
+
 }
 .pws_tabs_container ul.pws_tabs_controll li a:hover {
-  background-color: #70c5c2;
+  
 }
 .pws_tabs_container ul.pws_tabs_controll li a i {
   margin-right: 8px;
@@ -136,8 +137,7 @@
   margin-left: 0;
 }
 .pws_tabs_container ul.pws_tabs_controll li a.pws_tab_active {
-  background-color: white;
-  color: #505050;
+
 }
 
 .pws_tabs_list {

@@ -246,7 +246,26 @@ ul.logos-clientes li{
 	display: inline-block;
 	vertical-align: top;
 }
+.mensaje-banner{
+	margin-top: 100px;
+	background: url("../images/sombra.png");
+	background-repeat: no-repeat;
+	float: right;
+	color: #ffffff;
+	height: 195px;
+	background-size: 712px auto;
+}
+.width-sombra{
+	height: auto;
+	max-width: 500px;
+	padding-top: 30px;
+}
+.width-sombra p{
+	line-height: 30px;
+	font-size: 20px;
+	text-align: right;
 
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
