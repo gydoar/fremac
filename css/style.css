@@ -1,5 +1,5 @@
 #mainbanner{
-	background-image: url("../images/banner.png");
+	background-image: url("../images/banner.jpg");
 	height: 632px;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -253,18 +253,30 @@ ul.logos-clientes li{
 	float: right;
 	color: #ffffff;
 	height: 195px;
-	background-size: 712px auto;
+	width: 712px;
 }
 .width-sombra{
-	height: auto;
-	max-width: 500px;
 	padding-top: 30px;
+	max-width: 100%;
 }
 .width-sombra p{
-	line-height: 30px;
-	font-size: 20px;
+	line-height: 25px;
+	font-size: 18px;
 	text-align: right;
+	margin-right: 100px;
+	letter-spacing: 2px;
+	font-style: normal;
+	max-width: 100%;
 
+}
+.width-sombra p strong{
+	font-weight: bold;
+	font-size: 25px;
+}
+.width-sombra p span{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
 }
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
