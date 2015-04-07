@@ -1,9 +1,10 @@
 #mainbanner{
-	background-image: url("../images/banner.jpg");
+	background: #310505 url("../images/banner.jpg");
 	height: 632px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: center buttom;
+	background-position: center;
 }
 #header-color{
 	background-color: rgba(45,13,12,0.8);
@@ -28,13 +29,13 @@ ul#menu-principal li a{
 }
 
 
-ul#menu-principal li:nth-child(1) a:hover{
+ul#menu-principal li:nth-child(1) a:hover,ul#menu-principal li:nth-child(1) a:active{
 	padding: 10px 12px;
 	background-image: url("../images/hover-menu.png");
 	background-repeat: no-repeat;
 	color: #2d0d0c;
 }
-ul#menu-principal li:nth-child(1) a:focus{
+ul#menu-principal li:nth-child(1) a:focus, ul#menu-principal li:nth-child(1) a:active{
 	padding: 10px 11px;
 	background-image: url("../images/hover-menu.png");
 	background-repeat: no-repeat;
@@ -166,13 +167,14 @@ ul.logos-clientes li{
 	list-style: none;
 }
 .contactenos{
-	background-image: url("../images/bn-contacto.png");
+	background: #451C1A url("../images/bn-contacto.png");
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #ffffff;
 	text-align: center;
 	padding: 50px 0px 20px 0px;
+	background-position: center;
 }
 
 .contactenos h2{
@@ -277,6 +279,9 @@ ul.logos-clientes li{
 	font-size: 25px;
 	font-style: normal;
 	font-weight: 300;
+}
+.pws_tabs_slide_right_hide.pws_tab_single.pws_tabs_slide_right_show{
+	padding-top: 20px;
 }
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
