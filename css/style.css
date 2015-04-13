@@ -1,10 +1,14 @@
 #mainbanner{
 	background: #310505 url("../images/banner.jpg");
-	height: 632px;
+	
 	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 632px;
+	width: 100%;
 	background-size: 100%;
-	position: center buttom;
-	background-position: center;
+	background-size: cover;
+
 }
 #header-color{
 	background-color: rgba(45,13,12,0.8);
